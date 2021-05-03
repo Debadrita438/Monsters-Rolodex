@@ -2,7 +2,7 @@
   "name": "monsters-rolodex",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://debadrita438.github.io/monsters-rolodex",
+  "homepage": "https://debadrita438.github.io/Monsters-Rolodex",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -13,7 +13,6 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "clean": "rm -rf node_modules/gh-pages/.cache",
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
