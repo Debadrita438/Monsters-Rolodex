@@ -1,10 +1,10 @@
-import { Component } from 'react';
+import React from 'react';
 
 import './App.css';
 import CardList from './components/CardList/CardList';
 import SearchBox from './components/SearchBox/SearchBox';
 
-class App extends Component {
+class App extends React.Component {
   constructor() {
     super();
     this.state = {
